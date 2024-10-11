@@ -1,7 +1,7 @@
 {
     "__JSON__": true,
-    "AUTHOR": "Kerm_Md-v2",
-    "theme": "kerm_md-v2",
+    "AUTHOR": "TAKA_MD_V",
+    "theme": "TAKA_MD_V",
     "LANGUAGE": "English",
     "LANGCODE": "en",  
     "STRINGS": { 
@@ -10,7 +10,7 @@
             "UPDATED_LOCAL": "Updated Bot successfully"
         },  
         "global": {      
-            "botName": "KERM_MD-V2",
+            "botName": "TAKA MD",
             "body": "Simple WhatsApp Bot", 
             "greet2" : "GoodDay SIR",
             "pic1": "https://telegra.ph/file/4eb97df2c598eb9ea211c.jpg", 
