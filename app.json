@@ -1,15 +1,15 @@
 {
-    "name": "Kerm_Md-V2",
-    "description": "Simple WhatsApp Bot🤖",
+    "name": "Kata MD",
+    "description": "Simple WhatsApp Bot🤖 For the Taka",
     "logo": "https://telegra.ph/file/dc5657036b53a3613d4f7.jpg",
-    "keywords": ["Kg Tech", "Kerm Md", "Kerm_Md-V2"],
+    "keywords": ["D Tech", "Taka", "Taka_Md_v"],
     "success_url": "/",
     "stack": "container",
   
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Kg Tech",
+        "value": "D Tech",
         "required": true
       },
   
