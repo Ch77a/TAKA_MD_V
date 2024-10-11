@@ -92,7 +92,7 @@ const {
        var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
        var _0x539d8f = {
          externalAdReply: {
-           title: "KERM_MD-V2",
+           title: "KERM-MD",
            body: "" + _0x37b490,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -134,7 +134,7 @@ const {
        var _0x236a49 = _0x10288a + "-" + _0x436585.toString().padStart(2, "0") + "-" + _0x511884.toString().padStart(2, "0");
        var _0x56eaaf = {
          externalAdReply: {
-           title: "KERM_MD-V2",
+           title: "𝗦𝗨𝗛𝗔𝗜𝗟-𝗠𝗗",
            body: _0x5f4890.subject,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -159,6 +159,7 @@ const {
    alias: ["rejectjoin"],
    info: "reject all request to join!",
    type: "group",
+   react: "❌",
    filename: __filename
  }, async (_0xb81e45, _0x3dda5f) => {
    try {
@@ -193,6 +194,7 @@ const {
    alias: ["acceptjoin"],
    info: "accept all request to join!",
    type: "group",
+   react: "⬇️",
    filename: __filename
  }, async (_0x90a6de, _0x5537ca) => {
    try {
@@ -200,7 +202,7 @@ const {
        return _0x90a6de.reply(tlang().group);
      }
      if (!_0x90a6de.isBotAdmin || !_0x90a6de.isAdmin) {
-       return await _0x90a6de.reply(!_0x90a6de.isBotAdmin ? "*_I'm Not Admin In This Group" + (!_0x90a6de.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
+       return await _0x90a6de.reply(!_0x90a6de.isBotAdmin ? "*_I'm Not Admin In This Group idiot😑" + (!_0x90a6de.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
      }
      const _0x3da7c6 = await _0x90a6de.bot.groupRequestParticipantsList(_0x90a6de.chat);
      if (!_0x3da7c6 || !_0x3da7c6[0]) {
@@ -227,6 +229,7 @@ const {
    alias: ["requestjoin"],
    info: "Set Description of Group",
    type: "group",
+   react: "📜",
    filename: __filename,
    use: "<enter Description Text>"
  }, async (_0x13cccd, _0x38cc41) => {
@@ -239,10 +242,10 @@ const {
      }
      const _0x3115b1 = await _0x13cccd.bot.groupRequestParticipantsList(_0x13cccd.chat);
      if (!_0x3115b1 || !_0x3115b1[0]) {
-       return await _0x13cccd.reply("*_No Request Join Yet_*");
+       return await _0x13cccd.reply("*_No Request Join Yet idiot😑_*");
      }
      let _0x4af6be = [];
-     let _0x59a317 = "*List of User Request to join*\n\n";
+     let _0x59a317 = "*List of User Request to join bro*\n\n";
      for (let _0x3230c3 = 0; _0x3230c3 < _0x3115b1.length; _0x3230c3++) {
        _0x59a317 += "@" + _0x3115b1[_0x3230c3].jid.split("@")[0] + "\n";
        _0x4af6be = [..._0x4af6be, _0x3115b1[_0x3230c3].jid];
@@ -267,10 +270,10 @@ const {
        return _0x160b96.reply(tlang().group);
      }
      if (!_0x4ef0da) {
-       return await _0x160b96.reply("*Provide Description text, You wants to Set*");
+       return await _0x160b96.reply("*Provide Description text, You wants to Set man😑*");
      }
      if (!_0x160b96.isBotAdmin || !_0x160b96.isAdmin) {
-       return await _0x160b96.reply(!_0x160b96.isBotAdmin ? "*_I'm Not Admin In This Group" + (!_0x160b96.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
+       return await _0x160b96.reply(!_0x160b96.isBotAdmin ? "*_I'm Not Admin In This Group idiot😭" + (!_0x160b96.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
      }
      try {
        await _0x160b96.bot.groupUpdateDescription(_0x160b96.chat, _0x4ef0da + "\n\n\t" + Config.caption);
@@ -295,10 +298,10 @@ const {
        return _0x25d56b.reply(tlang().group);
      }
      if (!_0x332d77) {
-       return await _0x25d56b.reply("*Uhh Dear, Give text to Update This Group Name*");
+       return await _0x25d56b.reply("*Uhh Dear, Give text to Update This Group Name😑*");
      }
      if (!_0x25d56b.isBotAdmin || !_0x25d56b.isAdmin) {
-       return await _0x25d56b.reply(!_0x25d56b.isBotAdmin ? "*_I'm Not Admin In This Group" + (!_0x25d56b.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
+       return await _0x25d56b.reply(!_0x25d56b.isBotAdmin ? "*_I'm Not Admin In This Group, salaud🤣😭" + (!_0x25d56b.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
      }
      try {
        await _0x25d56b.bot.groupUpdateSubject(_0x25d56b.chat, _0x332d77);
@@ -345,11 +348,11 @@ const {
        return await _0x5ac912.send(tlang().group, {}, "", _0x5ac912);
      }
      if (!_0x5ac912.isBotAdmin || !_0x5ac912.isAdmin) {
-       return await _0x5ac912.reply(!_0x5ac912.isBotAdmin ? "*_I'm Not Admin In This Group" + (!_0x5ac912.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
+       return await _0x5ac912.reply(!_0x5ac912.isBotAdmin ? "*_I'm Not Admin In This Group man😑" + (!_0x5ac912.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
      }
      let _0xc0618e = mtypes.includes(_0x5ac912.mtype) ? _0x5ac912 : _0x5ac912.reply_message;
      if (!_0xc0618e || !mtypes.includes(_0xc0618e?.mtype || "need_Media")) {
-       return await _0x5ac912.reply("*Reply to an image, dear*");
+       return await _0x5ac912.reply("*Reply to an image, idiot😭*");
      }
      return await updateProfilePicture(_0x5ac912, _0x5ac912.chat, _0xc0618e, "gpp");
    } catch (_0x5abd07) {
@@ -508,8 +511,10 @@ const {
  });
  cmd({
    pattern: "invite",
+   alias: ["link"],
    desc: "get group link.",
    category: "group",
+   react: "🖇️",
    filename: __filename
  }, async _0x53f8e3 => {
    try {
@@ -517,12 +522,12 @@ const {
        return _0x53f8e3.reply(tlang().group);
      }
      if (!_0x53f8e3.isBotAdmin) {
-       return _0x53f8e3.reply("*_I'm Not Admin, So I can't Send Invite Link_*");
+       return _0x53f8e3.reply("*_I'm Not Admin, So I can't Send Invite Link😑_*");
      }
      var _0x53ec11 = await _0x53f8e3.bot.groupInviteCode(_0x53f8e3.chat);
      var _0x2e549f = "https://chat.whatsapp.com/";
      var _0x41db31 = "" + _0x2e549f + _0x53ec11;
-     return _0x53f8e3.reply(+ _0x41db31 +);
+     return _0x53f8e3.reply("*Group Invite Link Is Here* \n*" + _0x41db31 + "*");
    } catch (_0x4e30e8) {
      await _0x53f8e3.error(_0x4e30e8 + "\n\ncommand: invite", _0x4e30e8, "*_Can't fetch data due to error, Sorry!!_*");
    }
@@ -538,7 +543,7 @@ const {
        return _0x451b0f.reply(tlang().group);
      }
      if (!_0x451b0f.isBotAdmin) {
-       return _0x451b0f.reply("*_I'm Not Admin, So I Can't ReSet Group Invite Link_*");
+       return _0x451b0f.reply("*_I'm Not Admin, So I Can't ReSet Group Invite Link😑_*");
      }
      await _0x451b0f.bot.groupRevokeInvite(_0x451b0f.chat);
      return _0x451b0f.reply("*_Group Link Revoked SuccesFully_*");
@@ -548,8 +553,10 @@ const {
  });
  cmd({
    pattern: "tagall",
+   alias: ["all"],
    desc: "Tags every person of group.",
    category: "group",
+   react: "🔊",
    filename: __filename
  }, async (_0x1ed055, _0x929954) => {
    try {
@@ -560,10 +567,10 @@ const {
      if (!_0x1ed055.isAdmin && !_0x1ed055.isCreator) {
        return _0x1ed055.reply(tlang().admin);
      }
-     let _0x392a2d = "\n══✪〘   *Tag All*   〙✪══\n\n➲ *Message :* " + (_0x929954 ? _0x929954 : "blank Message") + " \n " + Config.caption + " \n\n\n➲ *Author:* " + _0x1ed055.pushName + " 🌊\n";
+     let _0x392a2d = "\n══✪〘   *Tag All*   〙✪══\n\n➲ *Message :* " + (_0x929954 ? _0x929954 : "blank Message") + " \n " + Config.caption + " \n\n\n➲ *Author:* " + _0x1ed055.pushName + " 🔖\n";
      for (let _0x502431 of _0x5d614a) {
        if (!_0x502431.id.startsWith("2348039607375")) {
-         _0x392a2d += " ☃️ @" + _0x502431.id.split("@")[0] + "\n";
+         _0x392a2d += " 📍 @" + _0x502431.id.split("@")[0] + "\n";
        }
      }
      await _0x1ed055.bot.sendMessage(_0x1ed055.chat, {
@@ -581,6 +588,7 @@ const {
    alias: ["fkik"],
    desc: "Kick all numbers from a certain country",
    category: "group",
+   react: "💀",
    filename: __filename
  }, async (_0x19564c, _0x1d2bb7) => {
    try {
@@ -689,10 +697,9 @@ const {
  });
  cmd({
    pattern: "promote",
-   alias:  ["p"],
+   alias: ["p"],
    desc: "Provides admin role to replied/quoted user",
    category: "group",
-   react: "🥇",
    filename: __filename,
    use: "<quote|reply|number>"
  }, async _0x324f8b => {
@@ -701,7 +708,7 @@ const {
        return _0x324f8b.reply(tlang().group);
      }
      if (!_0x324f8b.isBotAdmin) {
-       return _0x324f8b.reply("*_I'm Not Admin Here, So I Can't Promote Someone_*");
+       return _0x324f8b.reply("*_I'm Not Admin Here, So I Can't Promote Someone salaud😑_*");
      }
      if (!_0x324f8b.isAdmin) {
        return _0x324f8b.reply(tlang().admin);
@@ -720,8 +727,10 @@ const {
  });
  cmd({
    pattern: "kick",
+   alias: ["bye"],
    desc: "Kicks replied/quoted user from group.",
    category: "group",
+   react: "🤣",
    filename: __filename,
    use: "<quote|reply|number>"
  }, async (_0x5e533c, _0x2a29f6) => {
@@ -730,20 +739,20 @@ const {
        return _0x5e533c.reply(tlang().group);
      }
      if (!_0x5e533c.isBotAdmin) {
-       return await _0x5e533c.reply("*_I'm Not Admin In This Group, Idiot_*");
+       return await _0x5e533c.reply("*_I'm Not Admin In This Group, Idiot😭_*");
      }
      if (!_0x5e533c.isAdmin) {
        return _0x5e533c.reply(tlang().admin);
      }
      let _0x4e844a = _0x5e533c.quoted ? _0x5e533c.quoted.sender : _0x5e533c.mentionedJid[0] ? _0x5e533c.mentionedJid[0] : false;
      if (!_0x4e844a) {
-       return await _0x5e533c.reply("*Uhh dear, reply/mention an User*");
+       return await _0x5e533c.reply("*Uhh dear, reply/mention an User man😑*");
      }
      if (_0x5e533c.checkBot(_0x4e844a)) {
-       return await _0x5e533c.reply("*Huh, I can't kick my Creator!!*");
+       return await _0x5e533c.reply("*Idiot, Je ne peux pas kick mon createur KgTech!*");
      }
      await _0x5e533c.bot.groupParticipantsUpdate(_0x5e533c.chat, [_0x4e844a], "remove");
-     await _0x5e533c.send("*Hurray, @" + _0x4e844a.split("@")[0] + " Kicked Succesfully!*", {
+     await _0x5e533c.send("*Tout laisse 😑, @" + _0x4e844a.split("@")[0] + " ne reviens plus jamais imbécile🤣😭!*", {
        mentions: [_0x4e844a]
      });
    } catch (_0x14d7b9) {
@@ -865,7 +874,7 @@ const {
    await _0x8c602e.reply("\t❣️ *Matchmaking...* ❣️\n\t*✯────────────────────✯*\n@" + _0x8c602e.sender.split("@")[0] + "  x  @" + _0x7fa6d0.split("@")[0] + "\n\t*✯────────────────────✯*\n\n" + (await _0x30a2ec()) + "\n\n" + Config.caption, {
      contextInfo: _0x1a1a8e,
      mentions: [_0x7fa6d0]
-   }, "asta");
+   }, "KERM_MD-V2");
  });
  smd({
    pattern: "mute",
@@ -1040,6 +1049,7 @@ const {
    pattern: "add",
    desc: "Add that person in group",
    category: "group",
+   react: "➕",
    filename: __filename,
    use: "<number|reply|mention>"
  }, async (_0x3d5ec9, _0xa86e2f) => {
@@ -1060,7 +1070,7 @@ const {
      try {
        await _0x3d5ec9.bot.groupParticipantsUpdate(_0x3d5ec9.chat, [_0x23d1da], "add");
        await _0x3d5ec9.reply("*_User Added in Group!!_*");
-       _0x3d5ec9.react("✨");
+       _0x3d5ec9.react("✅");
      } catch (_0x381769) {
        await _0x3d5ec9.react("❌");
        await _0x3d5ec9.bot.sendMessage(_0x23d1da, {
@@ -1148,6 +1158,7 @@ const {
    alias: ["delete", "dlt"],
    desc: "Deletes message of any user",
    category: "group",
+   react: "🗑️",
    filename: __filename,
    use: "<quote/reply message.>"
  }, async _0x320d81 => {
@@ -1217,3 +1228,15 @@ const {
      await _0x553d05.error(_0x2a8ad8 + "\n\ncommand: broadcast", _0x2a8ad8);
    }
  });
+Module({
+    pattern: 'clear ?(.*)',
+    fromMe: true,
+    desc: "Clear chat",
+    use: 'misc'
+}, (async (message, match) => {
+    await message.client.chatModify({
+        delete: true,
+        lastMessages: [{ key: message.data.key, messageTimestamp:message.data.messageTimestamp }]
+      },message.jid)
+    return  await message.send("_Chat cleared bro!_")  
+}));
