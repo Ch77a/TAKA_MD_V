@@ -7,7 +7,7 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "Kermd237@gmail.com";
+global.email = "diorrebero84@gmail.com";
 global.location = "Douala, Cameroun";
 global.mongodb = process.env.MONGODB_URL || "mongodb+srv://Rayan:<Emmanuel237>@cluster0.8twd0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 global.allowJids = process.env.ALLOW_JID || "null";
@@ -18,8 +18,8 @@ global.github = process.env.GITHUB || "https://github.com/Ch77a/KATA_MD_V";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vark1I1AYlUR1G8YMX31";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vark1I1AYlUR1G8YMX31";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/vci8Frt.jpeg";
-global.devs = "https://wa.me/237659079843 , https://wa.me/237656520674";
-global.sudo = process.env.SUDO || "237656520674";
+global.devs = "https://wa.me/237659079843 , https://wa.me/237690768603";
+global.sudo = process.env.SUDO || "237659079843";
 global.owner = process.env.OWNER_NUMBER || "PUT YOUR OWNER NUMBER";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
@@ -51,8 +51,8 @@ module.exports = {
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`BRAND PRODUCT OF ☞⌜D TECH⌝☜`",
   author: process.env.PACK_AUTHER || "D TECH",
-  packname: process.env.PACK_NAME || "Kata MD",
-  botname: process.env.BOT_NAME || "ᵏᵍ┘𝙺ATA_𝙼𝙳_𝚅𖤐",
+  packname: process.env.PACK_NAME || "TaKa MD",
+  botname: process.env.BOT_NAME || "ᵏᵍ┘TAKA_𝙼𝙳_𝚅𖤐",
   ownername: process.env.OWNER_NAME || "☞⌜D_BOT☜",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
