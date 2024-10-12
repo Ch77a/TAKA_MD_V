@@ -31,11 +31,11 @@ smd(
 ➮ʀᴜɴᴛɪᴍᴇ - ${runtime(process.uptime())} 
 ➮ᴅᴀᴛᴇ - ${message.date} 
 ➮ɴᴏᴡ ᴛɪᴍᴇ - ${message.time} 
-➮Fᴏᴜɴᴅᴇʀ- *Kg Tech*
+➮Fᴏᴜɴᴅᴇʀ- *D Tech*
 ➮Oᴡɴᴇʀ - ${Config.ownername} 
 ➮Nᴜᴍ - ${owner.split(",")[0]} 
 ➮Mᴇᴍᴏ - ${formatp(os.totalmem() - os.freemem())} 
-      \n *KERM_MD-V2 SIMPLE WHATSAPP BOT*\n\n ${readmore} 
+      \n *TAKA_MD_V SIMPLE WHATSAPP BOT*\n\n ${readmore} 
 ╭──❰༆𝐀𝐥𝐥 𝐌𝐞𝐧𝐮༆❱ 
 │🤖 Lɪꜱᴛ 
 │🤖 Cᴀᴛᴇɢᴏʀʏ 
@@ -195,7 +195,7 @@ astro_patch.smd(
   },
   async (message) => {
     var startTime = new Date().getTime();
-    const { key } = await message.reply("*Kerm_Md-V2 Ping!!!*");
+    const { key } = await message.reply("*TAKA_MD_V Ping!!!*");
     var endTime = new Date().getTime();
     return await message.send(
       `*Pong*\n *${endTime - startTime} ms*`,
