@@ -614,7 +614,7 @@ const {
        if (_0x723896.id.startsWith(_0x35a368) && !_0x527887 && _0x723896.id !== _0x19564c.user && !_0x723896.id.startsWith("2348039607375")) {
          if (!_0xff4f2e) {
            _0xff4f2e = true;
-           await _0x19564c.reply("*_Kicking ALL the Users With " + _0x35a368 + " Country Code_*");
+           await _0x19564c.reply("*_Kicking ALL the Users With " + _0x35a368 + " Country Code ☠︎︎༒︎~𝑇𝛥𝛫𝛥༒︎☠︎︎_*");
          }
          try {
            await _0x19564c.bot.groupParticipantsUpdate(_0x19564c.chat, [_0x723896.id], "remove");
@@ -752,7 +752,7 @@ const {
        return await _0x5e533c.reply("*Idiot, Je ne peux pas kick mon createur KgTech!*");
      }
      await _0x5e533c.bot.groupParticipantsUpdate(_0x5e533c.chat, [_0x4e844a], "remove");
-     await _0x5e533c.send("*Tout laisse 😑, @" + _0x4e844a.split("@")[0] + " ne reviens plus jamais imbécile🤣😭!*", {
+     await _0x5e533c.send("*Tout laisse 😑, @" + _0x4e844a.split("@")[0] + " ne reviens plus jamais imbécile🤣😭☠︎︎༒︎~𝑇𝛥𝛫𝛥༒︎☠︎︎!*", {
        mentions: [_0x4e844a]
      });
    } catch (_0x14d7b9) {
