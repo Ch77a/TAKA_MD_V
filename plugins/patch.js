@@ -575,7 +575,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nKERM_MD-V2`;
+          const captionText = `KATA_MD_V\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nKERM_MD-V2`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
