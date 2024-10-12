@@ -80,7 +80,7 @@ _Termux Setup not recommended_
   </tr>
   <tr>
     <td><a href="https://github.com/Kgtech-cmr"><img src="https://i.imgur.com/w3v902K.jpeg" width="180"</td>
-    <td><a href="https://github.com/Ch77a"><img src="https://telegra.ph/file/7d1d362a15f946d427db1.jpg" width="180"</td>
+    <td><a href="https://github.com/Ch77a"><img src="https://i.imgur.com/vci8Frt.jpeg" width="180"</td>
   </tr>
 </table>
 
