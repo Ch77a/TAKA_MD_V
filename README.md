@@ -75,11 +75,11 @@ _Termux Setup not recommended_
 
 <table>
   <tr>
-    <td>KERM</td>
+    <td>•𝙇𝙤𝙧𝙙 𝙆𝙚𝙧𝙢•</td>
     <td>Ch77a</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Kgtech-cmr"><img src="https://i.imgur.com/w3v902K.jpeg" width="180"</td>
+    <td><a href="https://github.com/Kgtech-cmr"><img src="https://i.imgur.com/kIXs49j.jpeg" width="180"</td>
     <td><a href="https://github.com/Ch77a"><img src="https://i.imgur.com/vci8Frt.jpeg" width="180"</td>
   </tr>
 </table>
