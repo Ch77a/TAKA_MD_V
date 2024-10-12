@@ -93,6 +93,6 @@ KERM•fixed Heroku ban
 KERM•fixed sleeping problem
 ```
 
-* [🧑‍💻 Follow The Cod3Uchiha whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029Vark1I1AYlUR1G8YMX31)
+* [🧑‍💻 Follow The Ch77a whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029Vark1I1AYlUR1G8YMX31)
 
 
