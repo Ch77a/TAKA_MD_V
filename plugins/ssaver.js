@@ -118,11 +118,11 @@ smd({ on: "status" }, async (message, text) => {
 smd(
   {
     cmdname: "user",
-    desc: "total Users Currently using kerm",
+    desc: "total Users Currently using Taka",
   },
   async (message, text) => {
     try {
-      message.send(`An Estimated 200+ Users On Kerm_Md`.trim());
+      message.send(`An Estimated 200+ Users On Taka_Md`.trim());
     } catch (e) {
       console.error("Error:", e);
       message.reply(`*ERROR!* `);
