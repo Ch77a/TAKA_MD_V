@@ -294,7 +294,7 @@ const {
         }
   
         const result = data.result;
-        return await message.send(`*KERM_MD-V2 ʙᴀʀᴅ ᴀɪ:*\n ${result}`, { quoted: message });
+        return await message.send(`*TAKA_MD_V  ʙᴀʀᴅ ᴀɪ:*\n ${result}`, { quoted: message });
       } catch (error) {
         await message.error(error + "\n\nCommand: bard", error, "*Failed to use Bard AI.*");
       }
@@ -317,7 +317,7 @@ const {
       if (!data.result.success) return message.send("*There's a problem, try again later!*");
   
       const { reply } = data.result;
-      const astro = "KERM_MD-V2 ɢᴘᴛ𝟺\n";
+      const astro = "TAKA_MD_V  ɢᴘᴛ𝟺\n";
       const tbl = "```";
       await send(message, `${astro}${tbl}${reply}${tbl}`);
     } catch (error) {
@@ -340,7 +340,7 @@ const {
       if (!res.status === 200) return message.send("*There's a problem, try again later!*");
   
       const { result } = res;
-      const astro = "KERM_MD-V2 ɢᴇᴍɪɴɪ ᴀɪ"
+      const astro = "TAKA_MD_V  ɢᴇᴍɪɴɪ ᴀɪ"
       const tbl = "```";
       await send(message, `${astro}${tbl}${result}${tbl}`);
     } catch (e) {
