@@ -630,7 +630,7 @@ smd(
          let _0x13ee38 = await getBuffer(_0x3c2608);
          await _0x19df48.reply(_0x13ee38, {
            packname: Config.packname,
-           author: "𝖪𝖤𝖱𝖬 𝖬𝖣"
+           author: "TAKA MD"
          }, "sticker");
        } else {
          await _0x19df48.bot.sendMessage(_0x19df48.chat, {
@@ -1066,7 +1066,7 @@ smd(
      const _0x4ac8f2 = await search(_0x1cb962);
      if (_0x4ac8f2.length) {
        let _0x3d85b = await download(_0x4ac8f2[0].id);
-       let _0x307e6f = "*KERM_MD-V2 â¢ APK DOWNLOADER* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " + _0x1cb962 + "_ \n";
+       let _0x307e6f = "*TAKA_MD_Vâ¢ APK DOWNLOADER* \n*________________________________* \n\n*_Reply Any Number To Download._*\n_Results For : " + _0x1cb962 + "_ \n";
        for (let _0x5a5920 = 0; _0x5a5920 < _0x4ac8f2.length; _0x5a5920++) {
          _0x307e6f += "\n*" + (_0x5a5920 + 1) + " : " + _0x4ac8f2[_0x5a5920].name + "* \n*Id : " + _0x4ac8f2[_0x5a5920].id + "* \n";
        }
