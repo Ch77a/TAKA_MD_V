@@ -82,7 +82,7 @@ smd({
     }
     let _0x44d3dd = _0x3febcd.split("|");
     let _0x47c982 = _0x44d3dd[0]?.trim() !== "" ? _0x44d3dd[0] : _0x471740.pushName;
-    let _0x20f704 = _0x44d3dd[1] && _0x44d3dd[1] !== "" ? _0x44d3dd[1] : "KERM_MD-V2 ♥️";
+    let _0x20f704 = _0x44d3dd[1] && _0x44d3dd[1] !== "" ? _0x44d3dd[1] : "꧁•༆$ℭ𝔥𝔯𝔦𝔰_𝔇𝔦𝔬𝔯🚹࿇꧂ ♥️";
     let _0x3ab776 = await _0xad98fb.download();
     let _0x3d0871 = {
       pack: _0x47c982,
@@ -360,10 +360,10 @@ smd({
   filename: __filename
 }, async (_0x230c03, _0x3b568a) => {
   try {
-    let _0x365550 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*💬ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└_FANCY_TEXT* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x3b568a ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "fancy RIAS_GREMORY-BOT(For all text)\n\t\t" + prefix + "fancy 25 RIAS_GREMORY-BOT(For specific text)```\n\n");
+    let _0x365550 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*TAKA_MD_V_FANCY_TEXT* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x3b568a ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "fancy RIAS_GREMORY-BOT(For all text)\n\t\t" + prefix + "fancy 25 RIAS_GREMORY-BOT(For specific text)```\n\n");
     let _0x50c7d9 = parseInt(_0x3b568a);
     if (isNaN(_0x50c7d9)) {
-      let _0x4ca942 = _0x3b568a ? _0x3b568a : "KERM_MD_V2";
+      let _0x4ca942 = _0x3b568a ? _0x3b568a : "TAKA_MD_V";
       listall(_0x4ca942).forEach((_0x51f58f, _0x2be109) => {
         _0x365550 += "\n" + (_0x2be109 += 1) + " " + _0x51f58f + "\n";
       });
