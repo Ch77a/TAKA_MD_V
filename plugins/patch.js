@@ -379,7 +379,7 @@ smd(
         formatp(os.totalmem() - os.freemem()) +
         "/" +
         formatp(os.totalmem()) +
-        "\n\n *🧑‍💻 :*  ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└ ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
+        "\n\n *🧑‍💻 :*  ᵏᵍ┘KATA_MD_V└ ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
         readmore +
         "\n╭──❰𝐀𝐥𝐥 𝐌𝐞𝐧𝐮❱\n༆🏮 Lɪꜱᴛ\n༆🏮 Cᴀᴛᴇɢᴏʀʏ\n༆🏮 Hᴇʟᴘ\n༆🏮 Aʟɪᴠᴇ\n༆🏮 Uᴘᴛɪᴍᴇ\n༆🏮 Wᴇᴀᴛʜᴇʀ\n༆🏮 Lɪɴᴋ\n༆🏮 Cᴘᴜ\n༆🏮 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
       ).trim();
@@ -597,7 +597,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n+KERM_MD-V2`;
+          const captionText = `KATA_MD_V\n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n+KERM_MD-V2`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -619,7 +619,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nKERM_MD-V2`;
+          const captionText = `KATA_MD_V\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nKATA_MD_V`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -667,13 +667,13 @@ smd(
 
       const ramUsage = process.memoryUsage().heapTotal / 1024 / 1024;
 
-      const message = `*ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└ ʀᴜɴɴɪɴɢ sɪɴᴄᴇ:* ${uptimeHours}h ${uptimeMinutes}ᴍ ${uptimeSeconds}s\n \t_ʜᴇʀᴇ's ᴍᴏʀᴇ ɪɴғᴏ_\n*ʀᴀᴍ ᴜsᴀɢᴇ:* ${ramUsage.toFixed(2)} MB\n*ᴄᴘᴜ ɴᴀᴍᴇ:* ${cpuModel}`;
+      const message = `*ᵏᵍ┘KATA_MD_V└ ʀᴜɴɴɪɴɢ sɪɴᴄᴇ:* ${uptimeHours}h ${uptimeMinutes}ᴍ ${uptimeSeconds}s\n \t_ʜᴇʀᴇ's ᴍᴏʀᴇ ɪɴғᴏ_\n*ʀᴀᴍ ᴜsᴀɢᴇ:* ${ramUsage.toFixed(2)} MB\n*ᴄᴘᴜ ɴᴀᴍᴇ:* ${cpuModel}`;
       const contextInfo = {
         isForwarded: true,
         forwardingScore: 999,
-        title: "ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└ Running Since",
+        title: "ᵏᵍ┘KATA_MD_V└ Running Since",
         body: message,
-        footerText: "ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└ 2024",
+        footerText: "ᵏᵍ┘KATA_MD_V└ 2024",
         isSendNotificationMsg: true,
         mentionedJid: [],
       };
@@ -694,7 +694,7 @@ astro_patch.cmd({
       const {
         commands: _0x7cfe13
       } = require("../lib");
-      let _0x95885d = "\n\t*QUEEN_ANITA-V2 ᴄᴏᴍᴍᴀɴᴅs ɪɴғᴏ*  \n";
+      let _0x95885d = "\n\t*KATA_MD_V ᴄᴏᴍᴍᴀɴᴅs ɪɴғᴏ*  \n";
       for (let _0x2bd72c = 0; _0x2bd72c < _0x7cfe13.length; _0x2bd72c++) {
         if (_0x7cfe13[_0x2bd72c].pattern == undefined) {
           continue;
@@ -995,7 +995,7 @@ function _0x593b() {
     "schedule",
     "_COMMANDS*  \n┗━━━━━━━━━━━━━━━━━━━━━━━\n\n\n",
     "text",
-    "┏━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└",
+    "┏━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*ᵏᵍ┘KATA_MD_V└",
     "2716190HSgAcg",
     "info",
     "endsWith",
