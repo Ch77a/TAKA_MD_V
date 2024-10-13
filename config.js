@@ -20,7 +20,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vark1I1AY
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/vci8Frt.jpeg";
 global.devs = "https://wa.me/237659079843 , https://wa.me/237690768603";
 global.sudo = process.env.SUDO || "237659079843";
-global.owner = process.env.OWNER_NUMBER || "PUT YOUR OWNER NUMBER";
+global.owner = process.env.OWNER_NUMBER || "50935334166";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -43,14 +43,14 @@ global.scan = "https://kata-session.onrender.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "PUT YOUR SESSION HERE"
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT0E5aTlkb1gzWk1xdTdEMjQrUTlnK2pQOE8xdXllcm1ncWkwTTdWZE1FST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaXdBYnMwM1Q0cTRRQThyb1JxWDNaMlVOSVkxWlZJMXhOUVQwaEM5eWVUOD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ5SG9QSUcrNThmM2lqRTZEb1J6VlhpSThWZTNQcWdlM0xqM25wOU16ODJ3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ4KzZwRW1LMklBUTFVZmN2VnBqekFxeU55aE1qZmxGSkpxTDNjUlZlcmdnPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjBQRGZqSHFXOVFnNE5SaDRkL2I0YTJabWxDaS9HdEtkRVN6WFJCY3R4MWM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InNoN0RHMVpqYU9BeHBLcWozNzR6a3VHOTJ6RjhPMVFmNTQ1WEVuWkNmQ289In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR05LWTN0OEV6bFRIMU9mOWJSMGxMZmYvWklVUVRyOHdmRGhVanJraXQxUT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU2tmWGlabTVDaWJFREpZdk5MZzJ2Y3ZhNllLVDVhSDI4MVZMdTZqTSt6dz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IitPSi9ScEhETEVBRXdMVWZMaU92NEY1RmMvR2crWUVUQzYrd25YdVhnMHdjeTd6aWFCTm1CbFIzQUdvOFh4K3lhYU5NTjVleVRwWnBhWDBpVUZKaUNnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTkxLCJhZHZTZWNyZXRLZXkiOiI0d0ZXUXRhZ0JTeFNscFB6VThDaDk3dVFGREFSLzJCNVRpeVBVc2EyZGlFPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJqSV90TGs3bFFET2hGUm9NcVFxeXpnIiwicGhvbmVJZCI6IjdlZTBmM2FhLTc3YmMtNDk3My1hMWIxLTg3Njg2MWI2MDI5ZCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ0S2taMG9LeDc0VS9kOTZSYWpnOXgvay9LdGM9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicjVObDRFR1l5R0JSRm5IQXprbDRkVTZrOXZnPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjhEU1A5N1ZIIiwibWUiOnsiaWQiOiI1MDkzNTMzNDE2NjoyMkBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJ+8J2QhvCdmq/wnZCD8J2Qg/CdmrXwnZCS8J2QkuKAovCdkIvwnZqw8J2Qi/CdmrDwnZq78J2ariJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTVNaNTZVRUVMamVyYmdHR0FRZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiaHJxTXl5VndRVC9KUFN5L0RCOG0wWDlzYzFscDJpeFhvL1oyTUl5YzQwaz0iLCJhY2NvdW50U2lnbmF0dXJlIjoid1VUZUFUeWxuTm53N2ljQmJoTlU4Vmhwa01TellzZU15NmJZVW5mUWdDQjBiT0IvVW80WEk0YzVGMzBDYjlYdjRaeE9TaGpTN1JMNkxDbTU4V05KQlE9PSIsImRldmljZVNpZ25hdHVyZSI6IlRQL2dPMHBvY3Rjc0QyVUN6REVWRGhMV1VjQ1RYeFhnSDIrb0YyTzJ6NnY4WkFhU3htY2cxRVVWbndJZlM4Z0sweER0MXV5UjZDckd3OG1CZWpMVkR3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiNTA5MzUzMzQxNjY6MjJAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCWWE2ak1zbGNFRS95VDBzdnd3Zkp0Ri9iSE5aYWRvc1Y2UDJkakNNbk9OSiJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyODgwMjYyOSwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFIL0wifQ=="
 module.exports = {
   menu: process.env.MENU || "1",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "•",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "`BRAND PRODUCT OF ☞⌜D TECH⌝☜`",
-  author: process.env.PACK_AUTHER || "꧁•༆$ℭ𝔥𝔯𝔦𝔰_𝔇𝔦𝔬𝔯🚹࿇꧂",
+  author: process.env.PACK_AUTHER || "𝐆𝚯𝐃𝐃𝚵𝐒𝐒•𝐋𝚰𝐋𝚰𝚻𝚮",
   packname: process.env.PACK_NAME || "TAKA MD",
   botname: process.env.BOT_NAME || "ᵏᵍ┘TAKA_𝙼𝙳_𝚅𖤐",
   ownername: process.env.OWNER_NAME || "☞⌜D_BOT☜",
