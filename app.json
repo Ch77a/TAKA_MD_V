@@ -3,7 +3,7 @@
     "description": "Simple WhatsApp Bot🤖 For the Taka",
     "logo": "https://telegra.ph/file/dc5657036b53a3613d4f7.jpg",
     "keywords": ["D Tech", "Taka", "Taka_Md_v"],
-    "success_url": "/",
+    "success_url": "https://files.catbox.moe/w152ku.jpg",
     "stack": "container",
   
     "env": {
@@ -64,12 +64,12 @@
       },
       "HEROKU_API_KEY": {
         "description": "Put Your Heroku Api Key Here",
-        "value": "",
+        "value": "kgjj",
         "required": true
       },
       "HEROKU_APP_NAME": {
         "description": "Put Your Heroku App Name Here",
-        "value": "",
+        "value": "false",
         "required": true
       },
       "WAPRESENCE": {
@@ -103,11 +103,11 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "237656520674"
+        "value": "221707601006"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": ""
+        "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS0ZITG1DK3R0Z3R6bWMrS0ZNWHVWOVBWT0hCdFFUbHFvb1RkZGlHQVNVWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZFZCbUJyUm1PNDZxUUs2dEpCSnhPMDhYUk5yYmJ2VTRaVWlMNGhrL05Edz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNR2pOYk4rRC9HSEFkMi8xNC9WUkhXN01jUE5UUmIzWjJoRmo1czEvd21RPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJIalhFemJ3UkM5elM4YTVCeDBGUnUwc0JsZWduSUpQaHVLTTVtVkplUVNvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InVPb09ZTGQyR2JxYTMrK0pLMnV3TXpCL2NqQjNPV1JoL3pBOVVsYk1sVzQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImY0VUt5b09UQUhkTUVlM3NyMFZURFIzQklJeGNUQzY2cElmc2RtaDlsMXc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkY5NUpOemlJQjRTWnQ1S2tiMTN2NzZBVEFkNFFRbU9UcnM5VXZaVFRrbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieE1lcUY0dGUxZXl4djNpelpPSWVlVFpkMHJFK0VxL04vS2NET2pOOWxsdz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1vUUd1bGRRNnFvMGN5cFVtcXRWdkN1L2t0a2hvd2JOWXorNkU4azJkN2NDTmVnM0U5d3I0dXErVFBTSU1yelN2ZEtvbE1kd3dmRkpWTU1VdUxzYWhBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjMsImFkdlNlY3JldEtleSI6ImZsbnVyd0Q3QjRPbE1FSDNJazZ4alc3bTlLZmFBR2xGOEZGQ0pBV3g5aWs9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6InB3cUt6NURmUUxTYTdTRURkR3JYVXciLCJwaG9uZUlkIjoiOWU1OWQxYzctNmJjNS00M2Q1LThlZmItNTFkNzhlMzA1OGQ0IiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlRTYnlabG5KQzJYMCtDeG5lZitONEowN2N2WT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJGTHE2R2tHcUZNNjdhR2ZITDdjRk1QS1FOaXM9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiQjZRQzcxWVIiLCJtZSI6eyJpZCI6IjIyMTcwNzYwMTAwNjoxOUBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTTYyK3Q0R0VMKzF1TGdHR0FJZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiUlhYeTR4Nk01SUhPT2dMV2JKTVZPMnJyOEZqZ0MvbStsZDhJMW9MNXJnST0iLCJhY2NvdW50U2lnbmF0dXJlIjoiUGRWdk10Q0cyNEZ3bXZFL2MrZHNyREFPWVBmaU9zakkvcGlRQ2ttRjVSNWRpOXd0Umt4QmtKZjJzaEYvNm1EQ1Ryb0tYWlVObytjMUxsZi9qZkloQlE9PSIsImRldmljZVNpZ25hdHVyZSI6IlpQT3Jlc0t3WkJXdFBPK3hxZDU2Qnp5VUp1eXJUWW5MMytBOEVodnZaWmhIOVdKVHRvTFNveGhwNjRqNEpDSzZVVlc1eG9CdHAzaG5GeXR1aVhBQ2h3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjIxNzA3NjAxMDA2OjE5QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlVWMTh1TWVqT1NCempvQzFteVRGVHRxNi9CWTRBdjV2cFhmQ05hQythNEMifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3Mjg5Nzc2MTIsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBRzBzIn0="
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
